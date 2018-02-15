@@ -15,7 +15,7 @@ ListBadFit = ["investment", "banking", "bank", "financial" ,"consult", "consulti
 with requests.Session() as c:
     loginurl = 'https://sse-csm.symplicity.com/students/index.php'
     payload = {
-        'username' : '41035@student.hhs.se',
+        'username' : 'your_email_here', # YOUR EMAIL HERE
         'password' : 'your_password_here', # YOUR PASSWORD HERE
         '__pin' : ''
     }
